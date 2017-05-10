@@ -48,7 +48,7 @@ class SongAdapter(val activity: SimpleActivity, var songs: ArrayList<Song>, val 
             if (select)
                 markedItems.add(pos)
             else
-                markedItems.remove(pos)
+                markedItems.remove(pos)asdsad
         }
 
         fun updateTitle(cnt: Int) {
